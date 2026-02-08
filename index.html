@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blinkit Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">blink<span>it</span></div>
+      <div class="location">
+        <div class="label">Delivering to</div>
+        <div class="value">Bengaluru, 560001</div>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search for products" />
+      </div>
+      <nav class="actions">
+        <button class="ghost">Login</button>
+        <button class="cart">My Cart</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <div class="hero-text">
+          <p>Delivery in <strong>8 mins</strong></p>
+          <h1>Groceries & essentials delivered superfast</h1>
+          <p class="muted">
+            Stock up on fresh groceries, snacks, and daily essentials from your
+            neighborhood store.
+          </p>
+          <button class="primary">Start shopping</button>
+        </div>
+        <div class="hero-visual">
+          <div class="pill">Free delivery over ₹199</div>
+          <div class="blob">
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-categories">
+      <h2>Top categories</h2>
+      <div class="category-row" id="category-row"></div>
+    </section>
+
+    <section class="offers">
+      <div class="offer-card">
+        <div>
+          <h3>Fruits & veggies</h3>
+          <p>Up to 30% off on fresh picks</p>
+        </div>
+        <button class="primary">Shop now</button>
+      </div>
+      <div class="offer-card">
+        <div>
+          <h3>Snacks & beverages</h3>
+          <p>Buy 2 get 1 on selected brands</p>
+        </div>
+        <button class="primary">Shop now</button>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <div class="section-head">
+        <h2>Best sellers</h2>
+        <button class="ghost">See all</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="product-section">
+      <div class="section-head">
+        <h2>Household essentials</h2>
+        <button class="ghost">See all</button>
+      </div>
+      <div class="product-grid" id="household-grid"></div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <strong>Blinkit clone</strong>
+        <p class="muted">Made for demo purposes with rich dummy data.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Support</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
